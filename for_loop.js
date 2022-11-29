@@ -14,6 +14,7 @@ if (matchFound === "no"){
        matchFound = true;
        alert("It's one of the cleanest cities");
        break;
+       
      }
  } 
 
@@ -26,6 +27,7 @@ if (matchFound === "no"){
     if (cityToCheck === cleanestCities[i]) {
         matchFound = true;
         alert("It's one of the cleanest cities");
-               break;
+        break;
+            
     }
  }
